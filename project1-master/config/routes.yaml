@@ -1,0 +1,10 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+get_artiste:
+        path: /artiste/{id}
+        controller: App\Controller\Artiste\GetArtisteAction
+
+show_all:
+    path: /artiste
+    controller: App\Controller\Artiste\ShowArtisteAction
